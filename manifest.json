@@ -1,0 +1,35 @@
+  {
+    "name": "KRUSHNA",
+    "short_name": "APP",
+    "id": "V1",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#000",
+    "theme_color": "#000",
+    "categories": ["Website","Test","PWA","APP"],
+    "description": "application that will help you Testing.",
+    "start_url": "/APP-V1/",
+    "scope": "./",
+    "icons": [{
+      "src": "/ASSETS/ico_1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },{
+      "src": "/ASSETS/ico_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },{
+      "src": "/ASSETS/ico_256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }],
+    "shortcuts": [{
+      "name": "HOME",
+      "url": "/APP-V1/index.html",
+      "icons": [{
+        "src": "/ASSETS/ico_1024x1024.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      }]
+    }]
+  }
